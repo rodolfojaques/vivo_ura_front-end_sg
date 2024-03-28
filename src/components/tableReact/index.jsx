@@ -1,10 +1,8 @@
-import { useContext, useEffect, useMemo, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { TableStl } from "./styles"
 import { useTable, usePagination } from "react-table";
 import { ListaDeAlarmesContext } from "../../providers/listaDeAlarmes";
-import axios from "axios";
 import { UserContext } from "../../providers/user";
-import { purple } from "@material-ui/core/colors";
 
 function TableComponent({columns,exibirLinhas,total}){
     const {baseURL} = useContext(UserContext)

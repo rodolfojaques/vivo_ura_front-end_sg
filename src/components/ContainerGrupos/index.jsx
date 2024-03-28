@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import { ContainerGruposStl } from "./styles";
 import { UserContext } from "../../providers/user";
-import { useEffect } from "react";
 
 function ContainerGruposComponente({
   children,

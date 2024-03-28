@@ -1,4 +1,4 @@
-import { useContext, useEffect, useMemo, useState } from "react";
+import { useContext, useMemo, useState } from "react";
 import CaminhoComponent from "../../components/Caminho";
 import Header from "../../components/Header";
 import TableComponent from "../../components/tableReact";

@@ -1,4 +1,4 @@
-import { arrEstado, arrSite, siglaSite, arrTipoAlarme, localidade } from "../../utils/pagListaAlarmes";
+import { arrEstado, arrTipoAlarme } from "../../utils/pagListaAlarmes";
 import { ModalTiposAlarmesStl } from "./styles";
 
 import * as yup from 'yup';

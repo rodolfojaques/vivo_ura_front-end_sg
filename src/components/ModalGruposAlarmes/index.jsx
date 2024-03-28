@@ -1,10 +1,9 @@
-import { arrEstado, arrSite, arrTipoAlarme } from "../../utils/pagListaAlarmes";
 import { ModalGruposAlarmesStl } from "./styles";
 
 import * as yup from 'yup';
 import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import axios from "axios";
 import { UserContext } from "../../providers/user";
 import { toast } from "react-toastify";

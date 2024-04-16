@@ -58,7 +58,7 @@ function GruposDeAlarmes() {
 
   const handleValueChange = (event, arr) => {
     const value = event.target.value || "";
-
+    console.log(arr);
     const newListaAlarmes = arr.filter((obj) => {
       if (
         obj?.nomeGrupo?.toString().toLowerCase().includes(value.toLowerCase())

@@ -89,7 +89,6 @@ function ListaDeAlarmesProvider({ children }) {
       {children}
     </ListaDeAlarmesContext.Provider>
   );
-  //TODO: continuar dos ajustes finais dos filtros de lista de alarmes SG// entender bug de total de pags.
 }
 
 export default ListaDeAlarmesProvider;
